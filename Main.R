@@ -1,0 +1,8 @@
+
+pizza <- c(10,15,20);
+labels = c("Data1", "DATA2", "DATA3");
+png(file="dados.png")
+pie(pizza, labels);
+  
+dev.off();
+
